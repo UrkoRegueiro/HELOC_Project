@@ -16,7 +16,7 @@
 
 <h2>
   
-Para visualizar la versión detallada del presente proyecto véase [HELOC_Project](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/heloc_project.ipynb)
+Para visualizar la versión detallada del presente proyecto véase [HELOC_Project](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/heloc_project.ipynb)
 
 <h2>
   
@@ -77,7 +77,7 @@ A continuación se muestra la información contenida en el informe crediticio de
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se importan los paquetes y funciones utilizados en todo el proceso de análisis y modelado desde un script, siendo esta opción la adecuada para una presentación lo más limpia posible.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las funciones utilizadas en el proceso de análisis pueden visualizarse en [este notebook](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/funciones_custom.ipynb).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las funciones utilizadas en el proceso de análisis pueden visualizarse en [este notebook](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/funciones_custom.ipynb).
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2. DataSet
 
@@ -159,15 +159,15 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para esta sección se han probado diferentes formas de tratar con los valores especiales:
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se han tomando solo los datos positivos para realizar un estudio de la importancia de cada variable a traves de varios modelos, quedandonos con el Gradient Boosting Classifier. Los resultados arrojan que la columna con mayor cantidad de valores especiales es relevantes y por tanto no podríamos eliminarla. Para las demas columnas con mayor número valores especiales se prueba a descartarlas dada su baja importancia. Véase el proceso en el [**Anexo Sección 1**](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/anexo.ipynb).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se han tomando solo los datos positivos para realizar un estudio de la importancia de cada variable a traves de varios modelos, quedandonos con el Gradient Boosting Classifier. Los resultados arrojan que la columna con mayor cantidad de valores especiales es relevantes y por tanto no podríamos eliminarla. Para las demas columnas con mayor número valores especiales se prueba a descartarlas dada su baja importancia. Véase el proceso en el [**Anexo Sección 1**](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/anexo.ipynb).
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Hemos probado creando columnas booleanas para cada columna y cada valor especial, realizando un análisis de correlacion de estas columnas con la variable objetivo, sin encontrarse una relación fuerte. Por tanto se ha descartado esta opción como viable a la hora de tratar los valores especiales. Para visualizar los resultados obtenidos vease el [**Anexo Sección 2**](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/anexo.ipynb).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Hemos probado creando columnas booleanas para cada columna y cada valor especial, realizando un análisis de correlacion de estas columnas con la variable objetivo, sin encontrarse una relación fuerte. Por tanto se ha descartado esta opción como viable a la hora de tratar los valores especiales. Para visualizar los resultados obtenidos vease el [**Anexo Sección 2**](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/anexo.ipynb).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se ha probado a crear una columna booleana a partir de la columna con más valores especiales, categorizando los valores positivos como True y los negativos como False. El resultado no ha sido favorable descartando esta opción como viable. Véase en el [**Anexo Sección 3**](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/anexo.ipynb).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se ha probado a crear una columna booleana a partir de la columna con más valores especiales, categorizando los valores positivos como True y los negativos como False. El resultado no ha sido favorable descartando esta opción como viable. Véase en el [**Anexo Sección 3**](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/anexo.ipynb).
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se ha comprobado el resultado al imputar los valores especiales, arrojando, por el momento, los mejores resultados.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se prueba, creando una columna booleana que asigne valor 1 a los datos que han sido imputados y 0 a los reales para las tres columnas con más valores especiales. No se observa ninguna mejora. Véase [**Anexo Sección 4**](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/anexo.ipynb).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Se prueba, creando una columna booleana que asigne valor 1 a los datos que han sido imputados y 0 a los reales para las tres columnas con más valores especiales. No se observa ninguna mejora. Véase [**Anexo Sección 4**](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/anexo.ipynb).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>**Se ha decidido**</u>, tras múltiples pruebas, <u>**asignar NaN's a los valores especiales**</u>, imputándolos con KNNImputer a la hora de buscar el mejor modelo.
 
@@ -350,7 +350,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 ------------
     
-- ## [**Anexo**](https://github.com/UrkoRegueiro/HACK-A-BOSS-PROJECTS/blob/main/HELOC_Project/anexo.ipynb)
+- ## [**Anexo**](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/anexo.ipynb)
 
 
 
