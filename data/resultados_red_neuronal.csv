@@ -1,0 +1,2 @@
+Accuracy,History,Modelo,Precision,Recall,Vecinos
+0.7425431711145997,<keras.src.callbacks.History object at 0x00000282A675EA90>,<keras.src.engine.sequential.Sequential object at 0x00000282A2FE7C90>,0.7482161060142711,0.7497446373850868,14

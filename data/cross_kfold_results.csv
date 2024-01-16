@@ -1,0 +1,21 @@
+nombre,model,accuracy,precision,recall
+LogisticRegression,LogisticRegression(),0.7046952224052718,0.6883357529101516,0.6627375878872885
+GaussianNB,GaussianNB(),0.7018121911037891,0.6838440301918848,0.683690636744529
+KNeighborsClassifier,KNeighborsClassifier(),0.6383855024711697,0.6088878317575469,0.5987844131556707
+NearestCentroid,NearestCentroid(),0.6107907742998353,0.5941747437611408,0.5972829116541691
+RandomForestClassifier,RandomForestClassifier(),0.7092257001647446,0.6934761904368563,0.6684756612900326
+SVC,SVC(),0.6869851729818781,0.6833352505217491,0.6203700706694719
+AdaBoostClassifier,AdaBoostClassifier(),0.6890444810543658,0.6680191761744068,0.6534221646796496
+GradientBoostingClassifier,GradientBoostingClassifier(),0.707166392092257,0.6896529882458587,0.6701382819945694
+XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=None, ...)",0.6812191103789127,0.6589637609039283,0.6464778551006096
+HistGradientBoostingClassifier,HistGradientBoostingClassifier(),0.6915156507413509,0.6708588224574501,0.6564575353796911
