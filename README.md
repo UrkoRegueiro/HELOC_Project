@@ -110,7 +110,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
 
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/col_val_esp.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/col_val_esp.png)
 
 </div>
 
@@ -126,7 +126,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
 
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/corr.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/corr.png)
 
 </div>
 
@@ -210,7 +210,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
 
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/hold_out.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/hold_out.png)
 
 </div>
 
@@ -218,7 +218,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
 
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/kfold.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/kfold.png)
 
 </div>
 
@@ -226,7 +226,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
 
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/stra_kfold.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/stra_kfold.png)
 
 </div>
 
@@ -265,7 +265,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
   
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/columnas.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/columnas.png)
 
 </div>
 
@@ -275,7 +275,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
   
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/matrix_modelo.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/matrix_modelo.png)
 
 </div>
 
@@ -308,7 +308,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
   
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/red_graf.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/red_graf.png)
 
 </div>
 
@@ -316,7 +316,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
   
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/thresh.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/thresh.png)
 
 </div>
 
@@ -338,7 +338,7 @@ En esta sección se exploran los datos para una mayor comprensión del problema 
 
 <div align="center">
   
-![](https://github.com/UrkoRegueiro/HELOC_Project/images/matrix_red.png)
+![](https://github.com/UrkoRegueiro/HELOC_Project/blob/main/images/matrix_red.png)
 
 </div>
 
